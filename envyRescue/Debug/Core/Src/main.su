@@ -1,0 +1,6 @@
+main.c:74:6:cdc_recv	4	static
+main.c:85:5:main	544	static
+main.c:317:6:SystemClock_Config	88	static
+main.c:362:13:MX_SPI1_Init	8	static
+main.c:400:13:MX_GPIO_Init	32	static
+main.c:438:6:Error_Handler	4	static,ignoring_inline_asm

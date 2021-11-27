@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1637625004 source:/home/berocs/git/envy_controller/main.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+
