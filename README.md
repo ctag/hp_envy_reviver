@@ -84,7 +84,7 @@ Then those wires are brought up to the STM32 dev board.
 
 ![](images/test_fixture_3.jpg)
 
-Finally the ST-Link is connected via SWD to the dev board, and a serial adapter is added. Eventually I switched out the FTDI adapter for a virtual CDC serial port on the STM's integrated micro-USB.
+Finally the ST-Link is connected via SWD to the dev board, and a serial (FTDI) adapter is added. Eventually I switched out the FTDI adapter for a virtual CDC serial port on the STM's integrated micro-USB.
 
 ![](images/test_fixture_4.jpg)
 
