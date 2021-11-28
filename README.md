@@ -149,8 +149,10 @@ After a few failed attempts to write a page-at-a-time to the STM32, I once again
 
 MD5 sums:
 
-> 746d2097365c29ba0a2e90d04f627b4b  083AD.bin
-> 746d2097365c29ba0a2e90d04f627b4b  dump_16_0x1_full_post_write_083AD.bin
+```
+746d2097365c29ba0a2e90d04f627b4b  083AD.bin
+746d2097365c29ba0a2e90d04f627b4b  dump_16_0x1_full_post_write_083AD.bin
+```
 
 ## Conclusion
 
