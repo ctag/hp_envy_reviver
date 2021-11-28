@@ -1,0 +1,49 @@
+HP Device Firmware Update Tool
+
+Version 1.0.7
+-----------------
+1. Fix variable not clear issue when the tool launched but don't need to update.
+
+Version 1.0.6   2021-05-03
+-----------------
+1. Create "HpDevFwFinishFileList" variable at program start for patching BIOS reboot dead loop issue.
+    The issue happens when system force shutdown during first device firmware updating.
+
+Version 1.0.5   2021-04-20
+-----------------
+1. Device firmware sign file ext supports both .sig and .s12.
+    Tool will try to read .sig file when .s12 read failed.
+2. File move rule update, only move the device firmware file which write success.
+    Old: After all files in list update complete,
+         remove all files in Previous folder and
+         move all files in Current to Previous and
+         move all files in New to Current.
+    New: After a device firmware file write success,
+         remove the file with same filename in Previous folder and
+         move the file with same filename in Current to Previous and
+         move the file with same filename in New to Current.
+
+Version 1.0.4   2019-09-25
+-----------------
+1. Add protocol for BIOS to update progress bar by BIOS when the device firmware need to be processed in single block.
+    NOTE: This update only be applied on DevFwUpdate.efi and DevFwUpdate32.efi.
+
+Version 1.0.3   2017-11-03
+-----------------
+1. Fix load device firmware sign file for verifying failed issue.
+
+Version 1.0.2   2017-09-12
+-----------------
+1. Correct typo of UI.
+    Modify from "Do not shut down or memove external power from your computer during the process."
+             to "Do not shut down or remove external power from your computer during the process."
+2. Correct the behavior of detecting flash process complete.
+
+Version 1.0.1
+-----------------
+1. Fix keyboard no function issue at flash complete page.
+2. Add 32bit app.
+
+Version 1.0.0
+-----------------
+1. Initial version.
