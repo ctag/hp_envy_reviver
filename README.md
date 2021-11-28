@@ -67,6 +67,21 @@ I start by folding some jumper wires and soldering them to the 6 pins I need for
 
 Then those wires are brought up to the STM32 dev board.
 
+```
++---------------+---------------+
+| SOP8 BIOS Pin |   STM32 Pin   |
++---------------+---------------+
+|             1 | PA4           |
+|             2 | PA6           |
+|             3 | Not Connected |
+|             4 | GND           |
+|             5 | PA7           |
+|             6 | PA5           |
+|             7 | Not Connected |
+|             8 | VCC           |
++---------------+---------------+
+```
+
 ![](images/test_fixture_3.jpg)
 
 Finally the ST-Link is connected via SWD to the dev board, and a serial adapter is added. Eventually I switched out the FTDI adapter for a virtual CDC serial port on the STM's integrated micro-USB.
