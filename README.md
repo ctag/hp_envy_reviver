@@ -158,6 +158,6 @@ MD5 sums:
 
 Once I was happy with the successful programming of the chip, it was removed from the test fixture and put back in the laptop. 
 
-On first boot... Nothing happened. In fact, it took several boots, and possibly removing the hard drive before I finally saw the backlight flicker. The system then rebooted on its own, and the HP logo appeared along with a message complaining that the CMOS BIOS settings had been lost. After that everything appeared to work.
+On first boot... Nothing happened. In fact, it took several boots, and possibly removing the hard drive (which we had also tried prior to all of this) before I finally saw the backlight flicker. The system then rebooted on its own, and the HP logo appeared along with a message complaining that the CMOS BIOS settings had been lost. After that everything appeared to work.
 
 ![](images/diag_test.jpg)
