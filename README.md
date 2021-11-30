@@ -31,7 +31,7 @@ Eventually HP got back in touch, and alongside a picture of the laptop's (existi
 
 ![](images/hp_warranty_renege.png)
 
-As we've already established, the laptop's failure was not due to the 3rd party RAM, which had been cranking along perfectly for months. Under the [Magnuson-Moss Warranty Act](http://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter50&edition=prelim) it is illegal for HP to renege on their warranty *unless the reason for warranty work is demonstrably due to the consumer's changes*. Which is a much higher burden of proof than a picture of RAM. See also "Tie in Sales Provisions" on [ftc.gov](https://www.ftc.gov/tips-advice/business-center/guidance/businesspersons-guide-federal-warranty-law). But I am not a lawyer and I sure can't afford one, so Hewlett-Packard will continue to harm consumers with impunity.
+As we've already established, the laptop's failure was not due to the 3rd party RAM, which had been cranking along perfectly for months. Under the [Magnuson-Moss Warranty Act](http://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter50&edition=prelim) it is illegal for HP to renege on their warranty *unless the reason for warranty work is demonstrably due to the consumer's changes*. Which is a higher burden of proof than a picture of RAM. See also "Tie in Sales Provisions" on [ftc.gov](https://www.ftc.gov/tips-advice/business-center/guidance/businesspersons-guide-federal-warranty-law). But I am not a lawyer and I sure can't afford one, so Hewlett-Packard will continue to harm consumers with impunity.
 
 The laptop was returned un-repaired, and it sat unused for several months. Until this past weekend, when I decided it couldn't get any more bricked and asked to borrow it to continue troubleshooting. 
 
@@ -47,7 +47,7 @@ The IC listed there is a MX25L8005M2C-15G. There isn't one of those on this lapt
 
 Searching for that second part number brings up some hits that [include "BIOS" in them](https://www.win-raid.com/t4287f16-GUIDE-The-Beginners-Guide-to-Using-a-CH-A-SPI-Programmer-Flasher-With-Pictures-11.html). That's promising, and it makes me suspect that this schematic is for a slightly different motherboard also sold as "Envy 17".
 
-I look at a any other likely candidate chips and search their part numbers as well. I'm not sure if this MX25L6473F is the BIOS chip or not, but it seems to be the best bet.
+I look at any other likely candidate chips and search their part numbers as well. I'm not sure if this MX25L6473F is the BIOS chip or not, but it seems to be the best bet.
 
 ## Test fixture
 
