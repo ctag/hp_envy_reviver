@@ -112,7 +112,7 @@ Reluctantly I started working on the C++ program in `host_pc/`, and eventually a
 
 Resource used for configuring the serial port in C++: https://blog.mbedded.ninja/programming/operating-systems/linux/linux-serial-ports-using-c-cpp/.
 
-Eventually I grew tired of hunting the source of these file differences, and wanted to know conclusively what was on that BIOS chip. So I set up the host and STM32 software to read a single byte at a time and save it to a file. This would have taken more than a day on the serial adapter, but since the USB port operates at 12MHz (USB full speed) it was only around one hour to complete. The first full firmware was dump_11.bin which matched stty-based dump_03.bin.
+Eventually I grew tired of hunting the source of these file differences, and wanted to know conclusively what was on that BIOS chip. So I set up the host and STM32 software to read a single byte at a time and save it to a file. This would have taken more than a day on the serial adapter, but I found that if the baud rate wasn't set manually in the C++ program it defaults to either a very high baud or possibly even the USB full speed (12MHz) that the virtual STM32 CDC device runs at, bringing the time down to only around one hour. The first full firmware was dump_11.bin which matched stty-based dump_03.bin.
 
 ## Locating a new BIOS binary
 
